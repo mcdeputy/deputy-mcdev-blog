@@ -1,6 +1,12 @@
 {
   "name": "deputy-mcdev-blog",
   "compatibility_date": "2025-12-05", // Update to the day you deploy
+  "routes": [
+    {
+      "pattern": "deputymc.dev",
+      "custom_domain": true,
+    },
+  ],
   "assets": {
     "directory": "./dist",
   }
