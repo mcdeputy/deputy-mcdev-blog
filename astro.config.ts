@@ -1,3 +1,4 @@
+import { webcore } from "webcoreui/integration";
 import { defineConfig, envField } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 import sitemap from "@astrojs/sitemap";
@@ -13,12 +14,14 @@ import { SITE } from "./src/config";
 
 import react from "@astrojs/react";
 
+import mdx from "@astrojs/mdx";
+
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
   integrations: [sitemap({
     filter: page => SITE.showArchives || !page.endsWith("/archives"),
-  }), react()],
+  }), react(), webcore(), mdx()],
   markdown: {
     remarkPlugins: [remarkToc, [remarkCollapse, { test: "Table of contents" }]],
     shikiConfig: {
