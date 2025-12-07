@@ -36,6 +36,8 @@ Domain registered with [Porkbun](https://porkbun.com/), hosted using Cloudflare 
 
 ## 📰 Posts & Pages
 
+Further info in [Add Posts](#-astropaper-docs)
+
 ### Storage
 
 Base website pages such as home, about are stored in src\pages
