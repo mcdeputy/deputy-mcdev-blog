@@ -43,31 +43,37 @@ Any static assets, like images, can be placed in the `public/` directory.
 
 All blog posts are stored in `src/data/blog` directory.
 
-## 📖 Documentation
+## 📋 Reminders & Tips
 
-### Test
+### 🖼️📺 Assets
+
+Blog icons and images stored in src\assets\images.
+Images compressed to WebP using [TinyPNG](https://tinypng.com/).
+
+Videos uploaded to [YT @DeputyMcDev](https://www.youtube.com/@DeputyMcDev).
+Remember that many videos are unlisted.
+
+### 🟩✅ Customization & Variables
+
+Website title, posts per page and other basic settings defined in src\config.ts
+
+Website theme colors, maximum width defined in src\styles\global.css
+
+Socials defined in src\constants.ts
+Socials are automatically listed by components that request them, auto listing all defined ones.
+
+### Features
+
+Comments added with [Giscus](https://astro-paper.pages.dev/posts/how-to-integrate-giscus-comments/).
+
+## 📖 AstroPaper Docs
 
 - Core - [markdown](https://github.com/satnaing/astro-paper/tree/main/src/data/blog) | [blog post](https://astro-paper.pages.dev/posts/)
-
-### Test 2
 
 - Configuration - [markdown](https://github.com/satnaing/astro-paper/tree/main/src/data/blog/how-to-configure-astropaper-theme.md) | [blog post](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/)
 - Add Posts - [markdown](https://github.com/satnaing/astro-paper/tree/main/src/data/blog/adding-new-post.md) | [blog post](https://astro-paper.pages.dev/posts/adding-new-posts-in-astropaper-theme/)
 - Customize Color Schemes - [markdown](https://github.com/satnaing/astro-paper/tree/main/src/data/blog/customizing-astropaper-theme-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/)
 - Predefined Color Schemes - [markdown](https://github.com/satnaing/astro-paper/tree/main/src/data/blog/predefined-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/predefined-color-schemes/)
-
-## 💻 Tech Stack
-
-**Main Framework** - [Astro](https://astro.build/)  
-**Type Checking** - [TypeScript](https://www.typescriptlang.org/)  
-**Styling** - [TailwindCSS](https://tailwindcss.com/)  
-**UI/UX** - [Figma Design File](https://www.figma.com/community/file/1356898632249991861)  
-**Static Search** - [FuseJS](https://pagefind.app/)  
-**Icons** - [Tablers](https://tabler-icons.io/)  
-**Code Formatting** - [Prettier](https://prettier.io/)  
-**Deployment** - [Cloudflare Pages](https://pages.cloudflare.com/)  
-**Illustration in About Page** - [https://freesvgillustration.com](https://freesvgillustration.com/)  
-**Linting** - [ESLint](https://eslint.org)
 
 ## 👨🏻‍💻 Running Locally
 
