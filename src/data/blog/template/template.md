@@ -5,7 +5,7 @@ modDatetime: 2025-06-13T16:52:45.934Z
 title: My template post
 slug: my-template-post
 featured: false
-draft: false
+draft: true
 tags:
   - personal
   - gamedev
