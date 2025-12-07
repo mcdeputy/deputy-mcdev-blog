@@ -30,8 +30,8 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="34.383067"
-     inkscape:cx="11.473671"
-     inkscape:cy="13.538641"
+     inkscape:cx="11.459129"
+     inkscape:cy="13.567725"
      inkscape:window-width="2560"
      inkscape:window-height="1369"
      inkscape:window-x="1912"
@@ -52,7 +52,7 @@
      stroke-linecap="round"
      stroke-linejoin="round"
      id="path1-0"
-     style="fill-rule:nonzero" />
+     style="fill-rule:nonzero;stroke-width:2;stroke-dasharray:none" />
   <path
      fill-rule="evenodd"
      clip-rule="evenodd"
@@ -61,5 +61,5 @@
      stroke-linecap="round"
      stroke-linejoin="round"
      id="path2-9"
-     style="fill-rule:nonzero" />
+     style="fill-rule:nonzero;stroke-width:2;stroke-dasharray:none" />
 </svg>
